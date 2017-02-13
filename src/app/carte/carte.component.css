@@ -1,0 +1,17 @@
+.border{
+  border: solid 0.1px black;
+  height:150px;
+  width:150px;
+  margin:5px;
+  transition: .5s;
+  border-radius: 2px;
+}
+
+.clickable:hover{
+  margin-bottom:.1em;
+  box-shadow: 0 0 10px;
+}
+
+.founded{
+  border: solid 0.1px red;
+}

@@ -1,0 +1,8 @@
+<button md-button [mdMenuTriggerFor]="appMenu">
+   Menu
+</button>
+
+<md-menu #appMenu="mdMenu">
+  <button md-menu-item routerLink="/home"> <md-icon>more_vert</md-icon> Home </button>
+  <button md-menu-item routerLink="/game"> Game </button>
+</md-menu>
